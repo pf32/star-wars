@@ -26,7 +26,7 @@ Endpoints necessário para consumir os serviços da aplicação:
 
 Criar planeta
 
-POST - http://localhost:8080/planetas
+POST - http://localhost:3000/planetas
 
 Segue abaixo, exemplo com os campos para realizar a chamada JSON:
 
@@ -42,16 +42,16 @@ Segue abaixo, exemplo com os campos para realizar a chamada JSON:
 
 Listar planetas
 
-GET - http://localhost:8080/planetas
+GET - http://localhost:3000/planetas
 
 buscar planeta pelo ID
 
-GET - http://localhost:8080/planetas{id}
+GET - http://localhost:3000/planetas{id}
 
 buscar planeta pelo nome
 
-GET - http://localhost:8080/planetas/{nome}
+GET - http://localhost:3000/planetas/{nome}
 
 Deletar planeta
 
-DELETE - http://localhost:8080/planetas/{id}
+DELETE - http://localhost:3000/planetas/{id}
